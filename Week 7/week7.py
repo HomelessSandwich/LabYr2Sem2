@@ -8,7 +8,7 @@ x1, y2 = np.loadtxt('results2.txt', unpack=True)
 y1 = y1 / 1000
 
 plt.title("Frequency Response of Ultrasonic Transmitter and Receiver")
-plt.xlabel("Frequency (Hz)") 
+plt.xlabel("Frequency (kHz)") 
 plt.ylabel("Voltage (V)")
 plt.plot(x1, y1)
 plt.plot(x1, y2) 
